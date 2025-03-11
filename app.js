@@ -17,12 +17,12 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número de 1 a 10');
+    exibirTextoNaTela('p', 'Escolha um número de 1 a 100');
 }
 exibirMensagemInicial();
 
 let listaNumerosSorteados = [];
-let numeroLimite = 5;
+let numeroLimite = 100;
 
 function gerarNumeroAleatorio() {
     let numeroEscolhido =  parseInt(Math.random() * numeroLimite + 1);
