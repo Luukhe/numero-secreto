@@ -44,7 +44,6 @@ console.log(numeroSecreto);
 // let aleatorio = parseInt(Math.random() * 100 + 1);
 
 
-
 let tentativas = 1;
 function verificarChute() { 
     let chute = document.querySelector('input').value;
@@ -86,9 +85,6 @@ function novoJogo() {
     tentativas = 1;
     document.getElementById('reiniciar').setAttribute('disabled', true); //true no segundo parametro
 }
-
-
-
 
 
 
