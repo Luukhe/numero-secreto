@@ -151,3 +151,16 @@ let gerarNumeroAleatorio2 = () => parseInt(Math.random() * 10 + 1);
 //     ? console.log('Adulto')
 //     : console.log('Idoso');
 
+
+
+
+
+// teste
+// teste
+// teste
+// teste
+// teste
+// teste
+// teste
+// teste
+// teste
